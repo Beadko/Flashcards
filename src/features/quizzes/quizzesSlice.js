@@ -17,7 +17,7 @@ export const addQuizForTopic = (quiz) => {
 	const { topicId, id } = quiz;
     return (dispatch) => {
     dispatch(quizzesSlice.actions.addQuiz(quiz));
-    dispatch(addQuizForTopic({ topicId: topicId, quizId: id }));
+    dispatch(addQuizIds({ topicId: topicId, quizId: id }));
     };
 };
 export const { addQuiz } = quizzesSlice.actions;
