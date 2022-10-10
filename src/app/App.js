@@ -9,6 +9,8 @@ import {
 import NewQuizForm from "../components/NewQuizForm";
 import NewTopicForm from "../components/NewTopicForm";
 import Topics from "../features/topics/Topics";
+import topicsSlice from "../features/topics/topicsSlice.js";
+import quizzesSlice from "../features/quizzes/quizzesSlice.js";
 import Topic from "../features/topics/Topic";
 import Quiz from "../features/quizzes/Quiz";
 import Quizzes from "../features/quizzes/Quizzes";
